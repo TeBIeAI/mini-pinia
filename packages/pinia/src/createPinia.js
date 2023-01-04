@@ -1,7 +1,7 @@
 import { ref, effectScope, provide } from 'vue'
 import { piniaSymbol } from './rootStore'
 
-export const createPinia = () => {
+export const createPinia1 = () => {
 	// scoped 主要作用在于定义一个 store 响应式的作用域  可以实现开启关闭  stroe的响应式  调用scoped.stop()
 	let scoped = effectScope(true)
 
